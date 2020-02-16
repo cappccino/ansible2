@@ -1,0 +1,11 @@
+---
+- name: test connection to my hosts
+  hosts: trener1_all
+  become: no
+
+  tasks:
+
+  - name: ping my hosts
+    ping:
+
+
